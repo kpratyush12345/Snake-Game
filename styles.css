@@ -13,7 +13,7 @@
 }
 
 #board {
-  background: linear-gradient(rgb(146, 255, 164), rgb(102, 243, 59));
+  background-color: rgba(0, 128, 0, 0.507);
   width: 90vmin;
   height: 92vmin;
   border: 2px solid black;
@@ -29,6 +29,7 @@
   font-size: 39px;
   font-family: "New Tegomin", serif;
   font-weight: bolder;
+  color: white;
 }
 #hiscoreBox {
   position: absolute;
@@ -37,12 +38,13 @@
   font-size: 39px;
   font-family: "New Tegomin", serif;
   font-weight: bolder;
+  color: white;
 }
 
 .head {
-  background: linear-gradient(rgb(255, 4, 4), rgb(9, 255, 0));
-  border: 2px solid purple;
-  border-radius: 9px;
+  background: linear-gradient(rgb(174, 243, 12), rgb(9, 255, 0));
+  border: 2px solid rgb(0, 128, 58);
+  border-radius: 12px;
 }
 .snake {
   background: linear-gradient(rgb(7, 102, 7), rgb(80, 236, 80));
@@ -50,7 +52,7 @@
   border-radius: 12px;
 }
 .food {
-  background: linear-gradient(rgb(255, 209, 2), rgb(0, 255, 234));
+  background: linear-gradient(rgb(92, 0, 0), rgb(255, 61, 61));
   border: 0.25vmin solid black;
-  border-radius: 8px;
+  border-radius: 50%;
 }
